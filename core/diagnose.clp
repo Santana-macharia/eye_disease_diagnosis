@@ -5,7 +5,7 @@
 	(medical_history(pre_existing "diabetic"))
 =>
 (assert (diagnosis(name gloucoma_80pct)))
-(printout t "80% chance patient has GLOUCOMA" crlf)
+(printout t "80% chance the patient has GLOUCOMA" crlf)
 )
 
 (defrule gloucoma_test_60pct "This tests whether the disease is gloucoma with 60% confidence" 
@@ -30,24 +30,23 @@
 (defrule macular_degeneration_test "This tests Macular degeneration disease"
 (symptom(name "loss of vision"))
 (patient (age "55"))
-(retinal_examination_result(result "positive"))
+(goldmann_perimeter_result(result "positive"))
 =>
-(assert (diagnosis(name retinal_examinations)))
+(assert (diagnosis(name retinal_degeneration)))
 (printout t "Patient has Macular degeneration" crlf)
 )
 
 (defrule diabetic_retinopathy_test "This tests Diabetic retinopathy disease"
-(symptom(name "loss of vision"))
-(patient (age "55"))
-(retinal_examination_result(result "positive"))
+(symptom(name "redness"|"pain"|"itching"|"oozing"|"swelling"))
+(medical_history (pre_existing "diabetic"))
+(ophthalmoscopy_result(result "positive"))
 =>
 (assert (diagnosis(name diabetic_retinopathy)))
 (printout t "Patient has Diabetic retinopathy" crlf)
 )
 
 (defrule keratoconus_test "This tests Keratoconus disease"
-(symptom(name "loss of vision"))
-(patient (age "55"))
+(symptom(name "loss of vision"|""))
 (retinal_examination_result(result "positive"))
 =>
 (assert (diagnosis(name keratoconus)))

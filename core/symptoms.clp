@@ -15,6 +15,7 @@
 *loss of vision
 *loss of night vision
 *cloudy vision
+*poor color perception
 *halos around bright light
 *the presence of floaters
 *flu-like symptoms
