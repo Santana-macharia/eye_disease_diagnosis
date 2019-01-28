@@ -1,0 +1,118 @@
+Steps
+1. Ask the patient about the symptoms
+2. Looking at the appearance of the eyes
+3. A close physical examination, which might include testing
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                         1. SYMPTOMS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 	They include:
+		-tearing
+		-blurred vision
+		-loss of vision
+		-injuries to the eye
+		-the presence of floaters
+		-redness and pain in the eye
+		-cloudy vision
+		-flu-like symptoms
+		-sinus infection
+		-sensitivity to light
+		-possibility of being diabetic
+		-swelling or itchiness around the eyes
+		-painful lumps
+		-discharges from the eye
+		-skin irritation around the eye
+		-and the wearing of contact lenses.
+
+	Also included here is the patient's medical history and whether you have experienced this particular, or any other eye problem, before.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		2. APPEARANCE OF THE EYES.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		These include 
+		-droopy eyelids
+		-bloodshot appearance of the eye
+		-an opaque appearance to the eye
+		-a squint (strabismus)
+		-excessive tearing
+		-trauma to the area around the eye
+		-an inverted eyelid
+		-swelling or bulging of certain sections of the eye
+		-puffiness around the eye
+		-large scratches on the cornea
+		-inflammation of eyelash follicles and styes.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		3. ACTUAL TESTS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		1. Refraction is used to assess focusing errors which can lead to visual acuity problems such as nearsightedness or farsightedness.
+		2. A person’s vision is tested by using the Snellen test - making them read letters on a chart from six metres away, or a lighted box that displays rows of letters in diminishing sizes. Read more about the Snellen test and how it works right here.
+		3. An autorefractor is also used to determine how light is changed when it enters the eye.
+		4. A phoropter, used together with the Snellen test, helps to determine which corrective lenses will be most effective.
+		5. Visual field testing is done to see the entire area seen out of each eye. With one eye closed, and the patient focusing on the doctor’s face, he/she moves an object into the field of vision, and makes notes on when the patient reports seeing it.
+		6. A Goldmann perimeter is used to test peripheral vision, and an Amsler grit to test the central area of vision. Eyes are always tested separately.
+		7. Isihara colour plates (coloured dots on a white background) are used to test for colour blindness. Inability to see certain patterns or numbers in amongst the coloured dots can point to colour blindness.
+		8. Ophthalmoscopy (also called funduscopy), is like a flashlight with magnifying lenses. This is used to look through the pupil into the eye using a bright light in order to detect changes in the retina or the other structures of the eye, possibly because of conditions such as diabetes or high blood pressure. An indirect opthalmascope will give the doctor a three-dimensional view.
+		9. A slit-lamp is mounted on a table and the patient rests his/her chin on a small cross bar and looks directly into this binocular microscope. A bright light is shone into the eye. This instrument allows the doctor to do a thorough examination of the structures inside and around the eye (eyelids, skin around the eyes, iris, cornea, the fluid in the front part of the eye, the lens, retina and the optic nerve).
+		10. Tonometry measures the pressure within the eye. A small puff of air is blown against the cornea. This flattens the cornea and this instrument measures how long it takes to do that. The longer it takes for the cornea to flatten, the greater the chance of the presence of certain types of glaucoma.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		4. DISEASES
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		1. Glaucoma - Glaucoma is caused by excessive fluid pressure inside the eye, usually associated with inadequate fluid drainage through the eye's various ducts. High blood pressure can also be a contributing factor. We use a technique called tonometry to check your eye pressure. Glaucoma can often be successfully controlled with eye drops and/or oral medications.
+		2. Cataracts - Cataracts occur when the lens of the eye thickens and discolors, causing poor color perception, loss of night vision, blurred daytime vision and the presence of "halos" around bright lights. We can detect cataracts during vision testing with the aid of a slit-lamp device. Fortunately, a cataract can be surgically removed as a painless outpatient procedure. We can advise you on this surgery and then perform the necessary follow-up exams afterward.
+		3. Macular degeneration - Macular degeneration is another age-related eye disease, typically affecting people aged 55 or older. Progressive deterioration of the macula (part of the retina) causes sufferers to lose their central vision. Retinal examinations can reveal its presence. We may prescribe regular injections of various medications, along with antioxidants and nutrients to support retinal health.
+		4. Diabetic retinopathy - This condition causes damage and leakage in the tiny blood vessels that serve the retina, which we can see by dilating your pupils and evaluating your retinas. Depending on the severity of your condition, we may recommend injectable medications, surgery, and lifestyle changes to help you get your diabetes under control.
+		5. Keratoconus - Keratoconus is a weakening or thinning of the corneal tissue that causes the cornea to fall into a conical shape, creating severe refractive errors that limit vision. We can confirm this condition by measuring the contours of the cornea and then compensate for it with various types of specialized contact lenses, including scleral lenses. If necessary, we may recommend corneal inserts or surgery.
+		6. Dry eye - Dry eye may be caused by too much computer use (which slows your blinking rate), chronic eye strain, medications, underlying medical problems or tear film imbalances. After evaluating your tear film and tear duct function, our optometrists may recommend prescription or over-the-counter eye drops, punctal plugs or suggested lifestyle adjustments.
+		7. Conjunctivitis (pinkeye) - This inflammation of the conjunctiva causes redness, itching, oozing and crusting of the eye -- and if left untreated, it can cause permanent corneal scarring. Depending on whether your conjunctivitis is caused by bacteria, a virus or an allergic reaction, we may prescribe antibiotic eyedrops, antiviral medications, decongestants or steroids.
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+						KBS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+				1. get patient profile=> name,age,gender,occupation
+				2. get patient medical history
+				3. RULES
+********************************************************************************************************************************************
+				IF SYMPTOM IS TEARING
+					THEN OBSERVE THE EYE APPEARANCE
+					IF APPEARANCE IS EXCESSIVE TEARING
+						THEN TEST IS TONOMETRY
+						IF TONOMETRY TIME TO WET IS MORE THAN 100SECONDS
+							THEN CHANCE OF GLOUCOMA IS 80% IF DIABETIC AND 60% OTHERWISE
+
+
+				IF SYMPTOM IS loss of night vision, blurred daytime vision
+					THEN OBSERVE THE EYE APPEARANCE
+					IF APPEARANCE IS EXCESSIVE TEARING
+						THEN TEST IS TONOMETRY
+						IF TONOMETRY TIME TO WET IS MORE THAN 100SECONDS
+							THEN CHANCE OF GLOUCOMA IS 80% IF DIABETIC AND 60% OTHERWISE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
