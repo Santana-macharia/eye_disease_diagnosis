@@ -6,6 +6,8 @@
 *tearing 
 *blurred vision 
 *loss of vision
+*loss of night vision
+*halos around bright light
 *injuries to the eye
 *the presence of floaters
 *redness and pain in the eye

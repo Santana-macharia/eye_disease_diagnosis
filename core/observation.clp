@@ -8,6 +8,7 @@
 -an opaque appearance to the eye
 -a squint (strabismus)
 -excessive tearing
+-Patient is sensitive to light and glare
 -trauma to the area around the eye
 -an inverted eyelid
 -swelling or bulging of certain sections of the eye
