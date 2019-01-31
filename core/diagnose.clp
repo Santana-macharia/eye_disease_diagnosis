@@ -45,6 +45,30 @@
 (printout t "Patient has Diabetic retinopathy" crlf)
 )
 
+(defrule Night Blindness "This Lazy Eye  disease"
+(symptom(name "Vision is weak"|""))
+(medical_histoty(pre_existing "yes moving lazily")
+=>
+(assert (diagnosis(lazy eye)))
+(printout t "Patient has lazy eye" crlf)
+)
+
+defrule Cross Eyes strabismus "This tests Strabismus disease"
+(symptom(name "eyes aren’t lined up with each other when you look at something"|""))
+(retinal_examination_result(result "positive"))
+=>
+(assert (diagnosis(name strabismus)))
+(printout t "Patient has strabismus" crlf)
+)
+
+defrule Floater "This tests Floater disease"
+(symptom(name "tiny spots or specks that float across your field of vision."|""))
+(retinal_examination_result(result "positive"))
+=>
+(assert (diagnosis(name Floater)))
+(printout t "Patient has Floater" crlf)
+
+
 (defrule keratoconus_test "This tests Keratoconus disease"
 (symptom(name "loss of vision"|""))
 (retinal_examination_result(result "positive"))
