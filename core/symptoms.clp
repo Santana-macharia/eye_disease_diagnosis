@@ -17,11 +17,14 @@
 *cloudy vision
 *poor color perception
 *halos around bright light
+*cannot clearly see close objects and small print.
 *the presence of floaters
 *flu-like symptoms
 *sinus infection
+*eyes aren’t lined up with each other when you look at something
 *sensitivity to light
-*painful lumps
+*painful 
+*lazy eye
 *and the wearing of contact lenses.
 *other" crlf)
 (printout t "Type the name as it appears above or type others or DONE" crlf)
