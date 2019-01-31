@@ -70,3 +70,20 @@
 (assert (diagnosis(name dry_eye)))
 (printout t "Patient has Conjunctivitis (pinkeye)" crlf)
 )
+(defrule  Amblyopia_test "This tests Amblyopia disease"
+(symptom(name "eye fails to achieve normal visual acuity"|"young child has crossed eyes"|" if he or she cries or fusses when you cover one eye."))
+(patient (age "5"))
+(retinal_examination_result(result "positive"))
+=>
+(assert (diagnosis(name Amblyopia)))
+(printout t "Patient has Amblyopia (lazyeye)" crlf)
+)
+)
+(defrule  Color_blindness_test "This tests Color blindness disease"
+(symptom(name "eye fails to achieve normal visual acuity"|"young child has crossed eyes"|" if he or she cries or fusses when you cover one eye."))
+(patient (age "5"))
+(retinal_examination_result(result "positive"))
+=>
+(assert (diagnosis(name Amblyopia)))
+(printout t "Patient has Amblyopia (lazyeye)" crlf)
+)
